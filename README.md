@@ -2,9 +2,10 @@
 ## Hybrid Framework with Cucumber (BDD + DDT)
 
 ### 👩‍💻 Prepared By
-**Cevahir B**  
+**Cevahir Basibuyuk**  
 *QA Automation Engineer*
 * cbasibuyuk.sdet@gmail.com
+
 
 ---
 

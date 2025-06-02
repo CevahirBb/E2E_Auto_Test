@@ -1,9 +1,7 @@
 @login
 Feature:User should be able to login with valid credentials
-
   Background:
     Given The user is on the login page
-
   Scenario Outline:Positive Login Test
     When The user enters "<valid username>" and "<valid password>" credentials
     Then The user should be able to login sauce demo website
@@ -14,7 +12,6 @@ Feature:User should be able to login with valid credentials
       | performance_glitch_user | secret_sauce   |
       | error_user              | secret_sauce   |
       | visual_user             | secret_sauce   |
-
 
   Scenario Outline:Negative Login Test
     When The user enters invalid or empty "<username>" or "<password>" credentials
